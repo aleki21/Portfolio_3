@@ -441,7 +441,6 @@ header .circle {
     position: relative;
     width: 100%;
     background-color: var(--light-two);
-    min-height: 1200px;
 }
 
 .background-bg {
@@ -634,6 +633,11 @@ header .circle {
 
 .gallery-image:hover img{
     transform: translate(-50%, -50%) scale(1.1);
+}
+
+.more-folio {
+    display: flex;
+    justify-content: center;
 }
 
 /* End Portfolio */
