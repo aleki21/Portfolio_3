@@ -1544,6 +1544,224 @@ footer {
     .about img {
         max-width: 420px;
     }
+
+    .about .text {
+        margin-top: 0.7rem;
+    }
+
+    .skills {
+        margin: 0.9rem 0 1.7rem 0;
+    }
+
+    .skill-title {
+        font-size: 1rem;
+    }
+
+    .skill-bar {
+        height: 6px;
+    }
+
+    .about .column-1:before {
+        font-size: 6rem;
+        top: 10px;
+    }
+
+    .about .points {
+        width: 230px;
+        left: 65%;
+    }
+
+    .record-circle {
+        width: 150px;
+        height: 150px;
+        border-width: 3px; 
+    }
+
+    .record-circle .number {
+        font-size: 1.8rem;
+    }
+
+    .record-circle .sub-title {
+        font-size: 0.9rem;
+    }
+
+    .blog-wrap {
+        margin: 0.7rem 0.5rem;
+    }
+
+    .blog-card {
+        max-width: 315px;
+    }
+
+    .blog-image {
+        height: 200px;
+    }
+
+    .blog-content {
+        padding: 1.8rem 1.7rem 1.9rem 1.7rem;
+    }
+
+    .blog-info {
+        margin-bottom: 0.2rem;
+    }
+
+    .blog-info > * {
+        font-size: 0.75rem !important;
+    }
+
+    .blog-user i {
+        font-size: 0.8rem;
+    }
+
+    .blog-text {
+        font-size: 0.9rem;
+        margin: 0.2rem 0 0.8rem 0;
+    }
+
+    .rate {
+        font-size: 1.15rem;
+        margin-bottom: 1.1rem;
+    }
+
+    .review-text {
+        font-size: 1.05rem;
+    }
+
+    .review-info {
+        margin-top: 1.1rem;
+    }
+
+    .review-name {
+        font-size: 1.05rem;
+    }
+
+    .review-job {
+        font-size: 0.85rem;
+    }
+
+    .quote {
+        font-size: 6.5rem;
+    }
+
+    .review-nav {
+        font-size: 1.55rem;
+    }
+
+    .swiper-button-next {
+        right: 2.5rem;
+    }
+
+    .swiper-button-prev {
+        right: 4.5rem;
+    }
+
+    .contact {
+        padding: 9rem 0 6rem 0;
+    }
+
+    .contact-form {
+        padding-left: 1rem;
+    }
+
+    .contact-info {
+        padding-right: 1rem;
+    }
+
+    .contact-box {
+        padding: 3.6rem 3rem;
+    }
+
+    .information-wrap {
+        margin-top: 1.2rem;
+    }
+
+    .contact-icon {
+        min-width: 50px;
+        height: 50px;
+        font-size: 1rem;
+        margin-right: 0.8rem;
+    }
+
+    .contact-icon i {
+        line-height: 50px;
+    }
+
+    .info-text {
+        font-size: 1.05rem;
+    }
+
+    .contact-input {
+        font-size: 0.9rem;
+        padding: 0.9rem 1.6rem;
+        margin: 0.4rem 0;
+    }
+
+    .hireme {
+        padding: 8rem 0;
+    }
+
+    .footer {
+        padding: 4rem 0;
+    }
+
+    .footer-links a {
+        font-size: 1rem;
+    }
+
+    .footer .title-sm {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-input-wrap {
+        height: 36px;
+        margin-top: 0.8rem;
+    }
+
+    .footer-input {
+        font-size: 0.9rem;
+        padding: 0 1.2rem;
+    }
+
+    .input-arrow {
+        font-size: 1.2rem;
+    }
+
+    .copyright .text {
+        font-size: 0.95rem;
+    }
+
+    .followme h3 {
+        font-size: 1.05rem;
+    }
+
+    .followme .footer-line {
+        margin: 0 0.8rem;
+    }
+
+    .social-media a {
+        font-size: 1.05rem;
+    }
+
+    .back-btn-wrap {
+        margin-left: 1.3rem;
+    }
+
+    .back-btn {
+        width: 43px;
+        height: 43px;
+        font-size: 0.9rem;
+    }
+
+    .back-btn-wrap:before {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 850px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* End Responsive */
