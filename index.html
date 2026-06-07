@@ -12,7 +12,7 @@
 
 <body>
     <main>
-        <header>
+        <header id="header">
             <div class="overlay overlay-lg">
                 <img src="./img/shapes/square.png" class="shape square" alt="">
                 <img src="./img/shapes/circle.png" class="shape circle" alt="">
@@ -33,13 +33,13 @@
                     </div>
                     <div class="links">
                         <ul>
-                            <li><a href="#home">Home</a></li>
+                            <li><a href="#header">Home</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li><a href="#hire" class="active">Hire me</a></li>
+                            <li><a href="#hireme" class="active">Hire me</a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
 
         </header>
 
-        <section class="services section">
+        <section class="services section" id="services">
             <div class="container">
                 <div class="section-header">
                     <h3 class="title" data-title="What I Do">Services</h3>
@@ -122,7 +122,7 @@
             </div>
         </section>
 
-        <section class="portfolio section">
+        <section class="portfolio section" id="portfolio">
             <div class="background-bg">
                 <div class="overlay overlay-sm">
                     <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="">
@@ -266,7 +266,7 @@
             </div>
         </section>
 
-        <section class="about section">
+        <section class="about section" id="about">
             <div class="container">
                 <div class="section-header">
                     <h3 class="title" data-title="Who Am I">About me</h3>
@@ -432,7 +432,7 @@
             </div>
         </section>
 
-        <section class="testimonials section">
+        <section class="testimonials section" id="testimonials">
             <div class="container">
                 <div class="section-header">
                     <h3 class="title" data-title="What People Say">Testimonials</h3>
@@ -539,7 +539,7 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="contact-box">
                     <div class="contact-info">
@@ -588,7 +588,7 @@
             </div>
         </section>
 
-        <section class="hireme">
+        <section class="hireme" id="hireme">
             <div class="container">
                 <h3 class="title" data-title="Hire me">Let's talk about a project</h3>
                 <p class="text">
@@ -599,6 +599,105 @@
         </section>
 
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-4">
+                <div class="grid-4-col footer-about">
+                    <h3 class="title-sm">About</h3>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Web Dev</a>
+                        </li>
+                        <li>
+                            <a href="#">App design</a>
+                        </li>
+                        <li>
+                            <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#">UI design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-4-col footer-newsletter">
+                    <h3 class="title-sm">Subscribe</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                    <div class="footer-input-wrap">
+                        <input type="email" class="footer-input" placeholder="Email">
+                        <a href="#" class="input-arrow">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="copyright">
+                    <p class="text">
+                        Copyright&copy;2026 All right reserved | Made by <span>Alex Kimutai</span>
+                    </p>
+                </div>
+
+                <div class="followme-wrap">
+                    <div class="followme">
+                        <h3>Follow me</h3>
+                        <span class="footer-line"></span>
+                        <div class="social-media">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="back-btn-wrap">
+                        <a href="#" class="back-btn">
+                            <i class="fas fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./js/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
