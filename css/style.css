@@ -108,6 +108,21 @@ img{
     height: 38px;
 }
 
+.overlay.overlay-sm .shape {
+    filter: brightness(0) invert(1);
+    opacity: 0.15;
+    height: 40px;
+}
+
+.overlay.overlay-sm .shape.wave {
+    height: initial;
+    width: 70px;
+}
+
+.overlay.overlay-sm .shape.xshape {
+    height: 30px;
+}
+
 .points {
     opacity: 0.3;
     position: absolute;
@@ -490,21 +505,6 @@ header .circle {
     color: var(--main-color);
 }
 
-.overlay.overlay-sm .shape {
-    filter: brightness(0) invert(1);
-    opacity: 0.15;
-    height: 40px;
-}
-
-.overlay.overlay-sm .shape.wave {
-    height: initial;
-    width: 70px;
-}
-
-.overlay.overlay-sm .shape.xshape {
-    height: 30px;
-}
-
 .portfolio .square {
     top: 20%;
     left: 20%;
@@ -641,3 +641,11 @@ header .circle {
 }
 
 /* End Portfolio */
+
+/* About */
+
+.about {
+    overflow: hidden;
+}
+
+/* End About */
